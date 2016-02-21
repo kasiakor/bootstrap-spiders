@@ -12,7 +12,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <img src="images/spider-attack.jpg" width="140px" height="100px" alt="spider logo"></div>
+                    <img id="spider-logo" src="images/spider-attack.jpg" width="140px" height="100px" alt="spider logo"></div>
                 <div class="col-md-6">
                     <h1 class="text-left text-uppercase">Salticidae</h1>
                     <h3 class="text-left text-uppercase">Meet amazing Jumping Spiders!</h3>
@@ -29,29 +29,25 @@
                         the Euophrys omnisuperstes has been found on the slopes of the Himalays.</p>
                 </div>
             </div>
-            <div class="row">
+
+           <div class="row">
                 <div class="col-md-4">
-                    <a href="images/photo1.jpg" >
                     <img class="img-responsive img-thumbnail" src="images/photo1.jpg" width="300px" height="190px" alt="spider-photo1">
-                    <h3>Thumbnail photo</h3>
-                    <p><a href="http://github.com">Link to project</a></p>
-                </div>
+                    <h3 class="text-muted">Thumbnail photo</h3>
+                  </div>
                 <div class="col-md-4">
-                    <a href="images/photo2.jpg" >
                     <img class="img-responsive img-circle" src="images/photo2.jpg" width="300px" height="190px" alt="spider-photo2">
-                    <h3>Circle photo</h3>
-                    <p><a href="http://github.com">Link to project</a></p>
+                    <h3 class="text-muted">Circle photo</h3> 
                 </div>
                 <div class="col-md-4">
-                    <a href="images/photo3.jpg">
                     <img class="img-responsive img-rounded" src="images/photo3.jpg" width="300px" height="190px" alt="spider-photo3">
-                    <h3>Rounded corners photo</h3>
-                    <p><a href="http://github.com">Link to project</a></p>
+                    <h3 class="text-muted">Rounded corners photo</h3>
                 </div>
-           
-                <div class="row">
-                    <div class="col-md-12">
-                        <h3>Interesting facts:</h3>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="text-thin">Interesting facts:</h2>
                         <ul>
                             <li>Jumping spiders have 8 legs and have 8 eyes!
                             </li>
@@ -63,36 +59,40 @@
                             </li>
                             <li>Jumping spiders can climb on glass.</li>
                         </ul>
-                    </div>
                 </div>
+            </div>
 
-
-                <div class="row">
-                    <div class="col-md-6">
-                        <form id="quiz-form">
-                            <label>
-                                <h4>Quiz</h4>
-                                <span style="font-style:italic">How many pairs of eyes have jumping spiders?</span>
-                                <br><select id="quiz-answer">
-                                    <option value="2 pairs">2 pairs</option>
-                                    <option value="3 pairs">3 pairs</option>
-                                    <option value="4 pairs">4 pairs</option>
-                                </select>
-                            </label> 
-                                <button type="submit">Check Answer</button><br>
-                                <div id="result"></div>
-                        </form>
-                    </div>
-                    <div class="col-md-6">
-                        <img class="img-responsive" src="images/quizphoto.jpg" width="500px" height="100px" alt="quiz-photo">
+            <div class="row">
+                <div class="col-md-6">
+                    <form id="quiz-form">
+                        <label>
+                            <h2>Quiz</h2>
+                            <span style="font-style:italic">How many pairs of eyes have jumping spiders?</span>
+                            <select id="quiz-answer">
+                                <option value="2 pairs">2 pairs</option>
+                                <option value="3 pairs">3 pairs</option>
+                                <option value="4 pairs">4 pairs</option>
+                            </select>
+                        </label> 
+                            <button type="submit">Check Answer</button>
+                        <div id="result"></div>
+                    </form>
                 </div>
-
-          		<div class="row">
-          		<p>
-                <a href="https://en.wikipedia.org/wiki/Jumping_spider">Read more on Wikipedia</a> 
-                </p>|
-        		</div>
-
+                <div class="col-md-6">
+                    <img id="quiz-photo" class="img-responsive" src="images/quizphoto.jpg" width="400px" height="150px" alt="quiz-photo">
+                </div>
+            </div>
+     
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="footer">
+                        <a href="https://en.wikipedia.org/wiki/Jumping_spider">Read more on Wikipedia</a> 
+                    </p>
+                    <p class="footer">
+                        <a href="http://kasiakor.github.io/bootstrap-spiders/bootstrap.html">Link to project http://kasiakor.github.io/bootstrap-spiders/bootstrap.html</a>
+                    </p>
+                </div>
+            </div>
         <script src="bootstrap.js"></script>
     </body>
 </html>
