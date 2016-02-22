@@ -10,8 +10,10 @@
         console.log(answer);
         if (answer === "4 pairs") {
             $("#result").text("Congratulations! You are expert on jumping spiders!");
+            $("#result").css("color", "blue");
         } else {
             $("#result").text("Try again!");
+            $("#result").css("color", "red");
         }
         
     });
