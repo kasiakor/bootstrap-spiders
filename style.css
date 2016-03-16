@@ -1,0 +1,32 @@
+body {
+  font-family: "Lato", sans-serif !important f;
+  color: #24373D;
+  background-color: #F8F9FE;
+  font-weight: 300;
+}
+body .row {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+body .text-muted {
+  color: #BCBBBB;
+}
+body .text.thin {
+  font-weight: 100;
+}
+body #spider-logo, body #quiz-photo {
+  margin-left: 5px;
+  margin: 20px;
+  border: 4px solid black;
+  padding: 5px;
+}
+body #result {
+  color: #000000;
+  font-weight: bold;
+  font-size: 25px;
+}
+body .footer {
+  color: #000000;
+  font-family: cursive, monospace;
+  margin-right: 50px;
+}
