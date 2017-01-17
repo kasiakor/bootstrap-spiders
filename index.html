@@ -5,43 +5,52 @@
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link href='https://fonts.googleapis.com/css?family=Lato:100,300' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" type="text/css" href="style.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <link rel="icon" href="images/spider-favicon.png">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script type="text/javascript" src="game.js"></script>
+        <script type="text/javascript" src="quiz.js"></script>
         <title>Jumping spiders</title>
     </head>
     <body>
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
-                    <img id="spider-logo" src="images/spider-attack.jpg" width="140px" height="100px" alt="spider logo"></div>
-                <div class="col-md-6">
-                    <h1 class="text-left text-uppercase">Salticidae</h1>
-                    <h3 class="text-left text-uppercase">Meet amazing Jumping Spiders!</h3>
-                </div>
+	            <div class="col-md-12">
+                    <h1 class="text-center text-uppercase">Salticidae - meet amazing Jumping Spiders!</h1>
+	            </div>
+	           <div class="row">
+	           		<div class="col-md-12">
+	           			<p class="text-center">"Seeing a spider isn't a problem. It becomes a problem when it disappears"</p>
+	           		</div>   	
+	           </div>  
             </div>
-           
             <div class="row">
                 <div class="col-md-12">
-                    <h2>Basic info:</h2>
-                        <p>Usually black, sometimes brown, tan, or gray, and usually with pale markings. These spiders aren’t really big in size.
-                        They range anywhere between 1 and 22 mm. They are daytime active hunters and can be found in a variety of habitats
-                        with majority of the species being found in tropical forests. Mountainous regions, intertidal zones, deserts, scrub lands
-                        and temperate forests are other places where these jumping spiders can be found. One species in particular, known as
-                        the Euophrys omnisuperstes has been found on the slopes of the Himalays.</p>
+	                <div class="main-info">
+	                    <h2>Basic info:</h2>
+	                        <p>Usually black, sometimes brown, tan, or gray with pale markings. These spiders aren’t really big in size. They range anywhere between 1 and 22 mm. They are daytime active hunters and can be found in a variety of habitats with majority of the species being found in tropical forests. Mountainous regions, intertidal zones, deserts, scrub lands
+	                        and temperate forests are other places where these jumping spiders can be found. One species in particular, known as the Euophrys omnisuperstes has been found on the slopes of the Himalays.</p>
+	                 </div>
                 </div>
             </div>
 
            <div class="row">
                 <div class="col-md-4">
-                    <img class="img-responsive img-thumbnail" src="images/photo1.jpg" width="300px" height="190px" alt="spider-photo1">
-                    <h3 class="text-muted">Little Miss Muffet</h3>
+                	<div class="img-with-text">
+	                    <img class="img-responsive img-rounded" src="images/photo1.jpg" width="300px" height="190px" alt="spider-photo1">
+	                    <h3 class="text-muted text-center">Little Miss Muffet</h3>
+                    </div>
                   </div>
                 <div class="col-md-4">
-                    <img class="img-responsive img-circle" src="images/photo2.jpg" width="300px" height="190px" alt="spider-photo2">
-                    <h3 class="text-muted">Itsy Bitsy Spider</h3> 
+                	<div class="img-with-text">
+	                    <img class="img-responsive img-circle" src="images/photo2.jpg" width="300px" height="190px" alt="spider-photo2">
+	                    <h3 class="text-muted text-center">Itsy Bitsy Spider</h3> 
+                    </div>
                 </div>
                 <div class="col-md-4">
-                    <img class="img-responsive img-rounded" src="images/photo3.jpg" width="300px" height="190px" alt="spider-photo3">
-                    <h3 class="text-muted">Shelob</h3>
+                	<div class="img-with-text">
+	                    <img class="img-responsive img-rounded" src="images/photo3.jpg" width="300px" height="190px" alt="spider-photo3">
+	                    <h3 class="text-muted text-center">Shelob</h3>
+                    </div>
                 </div>
             </div>
 
@@ -55,7 +64,7 @@
                             </li>
                             <li>Most of them can jump 50 times their own body length, giving them the much needed element of surprise while hunting.</li>
                             <li>They are capable of agile jumps. They have an internal hydraulic system that alters the body fluid pressure
-                            and extends their legs, allowing them to jump high.
+                            and extends their legs.
                             </li>
                             <li>Jumping spiders can climb on glass.</li>
                         </ul>
@@ -63,36 +72,57 @@
             </div>
 
             <div class="row">
-                <div class="col-md-6">
-                    <form id="quiz-form">
-                        <label>
-                            <h2>Quiz</h2>
-                            <span style="font-style:italic">How many pairs of eyes have jumping spiders?</span>
-                            <select id="quiz-answer">
-                                <option value="2 pairs">2 pairs</option>
-                                <option value="3 pairs">3 pairs</option>
-                                <option value="4 pairs">4 pairs</option>
-                            </select>
-                        </label> 
-                            <button type="submit">Check Answer</button>
-                        <div id="result"></div>
-                    </form>
-                </div>
-                <div class="col-md-6">
-                    <img id="quiz-photo" class="img-responsive" src="images/quizphoto.jpg" width="400px" height="150px" alt="quiz-photo">
+                <div class="col-md-12">
+                    <div class="game">
+                        <h2>Game</h2>
+                        <div id="timer">Time: <span>10</span></div>
+                        <div id="counter">Score: <span>0</span></div>
+                        <div id="starter">Play</div>
+                        <div id="bg-game" class="img-responsive"><img id="fly" src="images/flygreen.png"></div>
+                    </div>
                 </div>
             </div>
-     
+
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Quiz</h2>
+	                <div class="quiz">
+	                    <form id="quiz-form">
+	                        <label>    
+                                <div class="quiz-line">
+    	                            <span style="font-style:monospace">How many pairs of eyes do jumping spiders have?</span>
+    	                            <select id="quiz-answer">
+                                        <option value="1 pairs">1 pair</option>
+    	                                <option value="2 pairs">2 pairs</option>
+    	                                <option value="3 pairs">3 pairs</option>
+    	                                <option value="4 pairs">4 pairs</option>
+                                        <option value="5 pairs">5 pairs</option>
+    	                            </select>
+                                </div>
+	                        </label>
+	                        <button type="submit">Check your answer</button>
+                            <div>
+                                <div class="form-item" id="result"></div><!--
+                                --><div class="form-item">
+                                    <img id="quiz-photo" class="img-responsive" src="images/quizphoto.jpg" width="200px" height="100px" alt="quiz-photo">
+                                </div>
+                            </div>
+	                    </form>
+	                </div>
+                </div>
+            </div>
+
+             
             <div class="row">
                 <div class="col-md-12">
                     <p class="footer">
-                        <a href="https://en.wikipedia.org/wiki/Jumping_spider">Read more on Wikipedia</a> 
+                        <a href="https://en.wikipedia.org/wiki/Jumping_spider">More on Jumping Spiders on Wikipedia</a> 
                     </p>
                     <p class="footer">
-                        <a href="https://github.com/kasiakor/bootstrap-spiders">Link to project: https://github.com/kasiakor/bootstrap-spiders</a>
+                        <a href="https://github.com/kasiakor/bootstrap-spiders">https://github.com/kasiakor/bootstrap-spiders</a>
                     </p>
                 </div>
             </div>
-        <script src="quiz.js"></script>
+        </div>
     </body>
 </html>
