@@ -104,9 +104,9 @@ body .game {
 #bg-game {
   position: relative;
   background-image: url(images/web.jpg);
-  background-size: 100%;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
-  width:1000px;
+  /*width:1000px;*/
   height:550px;
   cursor: url(images/spider-cursor.png), auto;
   border: 15px solid #6d7079;

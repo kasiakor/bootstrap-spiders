@@ -3,9 +3,9 @@ $(document).ready(function() {
 
 	$("#fly").click(function() {
 		var fly = $("img#fly");
-		var a = 500 * Math.random();
-		var b = 930 * Math.random();
-		fly.css({"top":a +'px', "left":b +'px'});
+		var a = 90 * Math.random();
+		var b = 90 * Math.random();
+		fly.css({"top":a +"%", "left":b +"%"});
 	});
 
 	var score = 0;
