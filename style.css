@@ -18,9 +18,22 @@ body .text.thin {
   font-weight: 200;
 }
 
-body #spider-logo, body #quiz-photo {
-  margin-left: 5px;
-  margin: 20px;
+body .img-with-text {
+  text-align: justify;
+  width: 300px;
+}
+
+body .img-with-text img {
+  display: block;
+  margin: 0 auto;
+}
+
+body .main-info p {
+  text-align: justify;
+}
+
+body #quiz-photo {
+  margin: 20px 0px 20px 5px;
   padding: 5px;
 }
 
@@ -37,4 +50,101 @@ body a {
 body .footer {
   color: #000000;
   margin-right: 50px;
+  font-size: 14px;
+  float: right;
+}
+
+body .quiz {
+  background-color: #6d7079;
+  height: 300px;
+  width: 100%;
+}
+
+body .quiz h2, body span {
+  color: white;
+}
+
+body .img-with-text {
+  text-align: justify;
+  width: 300px;
+}
+
+body .img-with-text img {
+  display: block;
+  margin: 0 auto;
+}
+
+body .main-info p {
+  text-align: justify;
+}
+
+body #quiz-photo {
+  border: 10px solid #F8F9FE;
+  padding: 10px;
+  float: right;
+}
+
+#quiz-answer {
+  margin: 20px;
+}
+
+.quiz-line {
+  text-align: justify;
+  width: 400px;
+}
+
+.quiz-line, span, select {
+  display: inline;
+  margin: 0 auto;
+}
+
+body .game {
+  width: 100%;
+}
+#bg-game {
+  position: relative;
+  background-image: url(images/web.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width:1000px;
+  height:550px;
+  cursor: url(images/spider-cursor.png), auto;
+  border: 15px solid #6d7079;
+  vertical-align: center;
+}
+
+img#fly {
+  position: absolute;
+  /*top: 275px-28px;
+  left: 500px-37px;*/
+}
+
+#counter, #timer, #starter{
+  display: inline-block;
+  margin-bottom: 11px;
+  background: #6d7079;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  color: #f3f3f3;
+  font-size: 1em;
+  padding: 8px;
+}
+
+#starter {
+  cursor:pointer;
+}
+
+h2 {
+  padding-bottom: 10px ;
+}
+
+#quiz-form {
+  padding: 0px 15px;
+}
+
+.form-item {
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
 }
