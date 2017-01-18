@@ -17,17 +17,27 @@ $(document).ready(function() {
 		}
 	});
 
-	var counter = 10;
+	var counter;
 	$("#starter").click(function() {
-		var timerInterval = setInterval(function(){
-				
+		if(typeof timerInterval !== "undefined") {
+			clearInterval(timerInterval);
+		};
+
+		counter = 10;
+		$("#timer > span").html(counter);
+		score = 0;
+		$("#counter > span").html(score);
+
+		timerInterval = setInterval(function(){	
 			if(counter > 0) {
 				counter--;
 				$("#timer > span").html(counter);
 			}
 			else {
+				alert("The game is over");
 				clearInterval(timerInterval);
 			}
 		}, 1000);
 	});
+
 });
