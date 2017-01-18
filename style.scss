@@ -18,6 +18,23 @@ body {
 		font-weight: 200;
 	}
 
+	.img-with-text {
+	  text-align: justify;
+	  width: 300px;
+	}
+
+	.img-with-text img {
+	    display: block;
+	    margin: 0 auto;
+	}
+	.main-info p {
+	  text-align: justify;
+	}
+
+	#quiz-photo {
+	  border: 10px solid #1c1a1f;
+	  padding: 3px;
+	}
 
 	#spider-logo, #quiz-photo {
 		margin-left:5px;
@@ -34,9 +51,39 @@ body {
 	a {
 		color: #211f24;
 	}
-	
 	.footer {
 		color:#000000;
 		margin-right:50px;
 	}
+
+
+	.quiz {
+  background-color: #211f24;
+  height: 300px;
+  width: 100%;
 }
+
+.quiz h2,span {
+  color: white;
+}
+
+.img-with-text {
+  text-align: justify;
+  width: 300px;
+}
+
+.img-with-text img {
+    display: block;
+    margin: 0 auto;
+}
+.main-info p {
+  text-align: justify;
+}
+
+#quiz-photo {
+  border: 10px solid #FFFFFF;
+  padding: 3px;
+  float: right;
+}
+}
+
