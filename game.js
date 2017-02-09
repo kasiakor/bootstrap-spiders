@@ -1,11 +1,18 @@
 
-$(document).ready(function() {
+$(document).ready(function() {	
+
+	isPlayClicked = "no";
 
 	$("#fly").click(function() {
-		var fly = $("img#fly");
-		var a = 90 * Math.random();
-		var b = 90 * Math.random();
-		fly.css({"top":a +"%", "left":b +"%"});
+		if(isPlayClicked == "yes") {
+			var fly = $("img#fly");
+			var a = 90 * Math.random();
+			var b = 90 * Math.random();
+			fly.css({"top":a +"%", "left":b +"%"});
+		}
+		else if (isPlayClicked == "no") {
+			alert("Click Play button to start the game");
+		}
 	});
 
 	var score = 0;
@@ -19,6 +26,7 @@ $(document).ready(function() {
 
 	var counter;
 	$("#starter").click(function() {
+		isPlayClicked = "yes"; 
 		if(typeof timerInterval !== "undefined") {
 			clearInterval(timerInterval);
 		};
@@ -35,6 +43,7 @@ $(document).ready(function() {
 			}
 			else {
 				alert("The game is over");
+				isPlayClicked = "no";
 				clearInterval(timerInterval);
 			}
 		}, 1000);
