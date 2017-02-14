@@ -10,10 +10,6 @@ body .row {
   margin-bottom: 30px;
 }
 
-body .text-muted {
-  color: #BCBBBB;
-}
-
 body .text.thin {
   font-weight: 200;
 }
@@ -65,9 +61,10 @@ body .quiz h2, body span {
 }
 
 body .img-with-text {
-  text-align: justify;
-  width: 300px;
-}
+    text-align: justify;
+    width: 100%;
+    padding: 20px;
+    }
 
 body .img-with-text img {
   display: block;
@@ -147,4 +144,12 @@ h2 {
   display: inline-block;
   vertical-align: top;
   width: 50%;
+}
+
+
+@media only screen and (max-width: 900px) {
+    
+    .image-with-text {
+        width: 100%;
+    }
 }
