@@ -40,14 +40,21 @@ body #result {
 }
 
 body a {
-  color: #211f24;
+    color: #211f24;
+    font-weight: bold;
+    font-size: 16px;
+    border: 1px dotted slategray;
+    float: right;
 }
 
 body .footer {
   color: #000000;
-  margin-right: 50px;
   font-size: 14px;
   float: right;
+}
+
+body .footer a:hover {
+    color: #6d7079;
 }
 
 body .quiz {
