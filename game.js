@@ -11,7 +11,7 @@ $(document).ready(function() {
 			fly.css({"top":a +"%", "left":b +"%"});
 		}
 		else if (isPlayClicked == "no") {
-			alert("Click Play button to start the game");
+			alert("Click 'Play' button to start the game");
 		}
 	});
 
@@ -45,8 +45,32 @@ $(document).ready(function() {
 				alert("The game is over");
 				isPlayClicked = "no";
 				clearInterval(timerInterval);
+               
+				if(localStorage.getItem("highscore") == null) {
+					highscore = localStorage.setItem("highscore", 0);
+				}
+				else {
+					highscore = localStorage.getItem("highscore");
+				}
+           
+
+				if(highscore !== null){
+					
+				   	if (score > parseInt(localStorage.getItem("highscore"))) {
+					   	score === highscore;
+					    localStorage.setItem("highscore", score );
+					    alert("You are the best player with score: " + score);
+					}
+
+					else {
+				      	alert("Your score:  " + score);
+					}
+
+					
+				}		
 			}
 		}, 1000);
+         
 	});
-
+       
 });
