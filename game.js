@@ -42,7 +42,7 @@ $(document).ready(function() {
 				$("#timer > span").html(counter);
 			}
 			else {
-				alert("The game is over");
+				
 				isPlayClicked = "no";
 				clearInterval(timerInterval);
                
@@ -59,11 +59,11 @@ $(document).ready(function() {
 				   	if (score > parseInt(localStorage.getItem("highscore"))) {
 					   	score === highscore;
 					    localStorage.setItem("highscore", score );
-					    alert("You are the best player with score: " + score);
+					    alert("The game is over!\nYou are the best player with score: " + score);
 					}
 
 					else {
-				      	alert("Your score:  " + score);
+				      	alert("The game is over!\nYour score:  " + score);
 					}
 
 					
