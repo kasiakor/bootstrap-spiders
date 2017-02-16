@@ -63,7 +63,8 @@ $(document).ready(function() {
 					}
 
 					else {
-				      	alert("The game is over!\nYour score:  " + score);
+				      	alert("The game is over!\nYour score:  " + score +"\nThe highest score: "+
+				      	 localStorage.getItem("highscore"));
 					}
 
 					
