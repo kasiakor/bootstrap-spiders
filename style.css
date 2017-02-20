@@ -29,8 +29,8 @@ body .main-info p {
 }
 
 body #quiz-photo {
-  margin: 20px 0px 20px 5px;
   padding: 5px;
+
 }
 
 body #result {
@@ -59,7 +59,6 @@ body .footer a:hover {
 
 body .quiz {
   background-color: #6d7079;
-  height: 300px;
   width: 100%;
 }
 
@@ -83,9 +82,9 @@ body .main-info p {
 }
 
 body #quiz-photo {
+  display: block;
   border: 10px solid #F8F9FE;
   padding: 10px;
-  float: right;
 }
 
 #quiz-answer {
@@ -100,6 +99,10 @@ body #quiz-photo {
 .quiz-line, span, select {
   display: inline;
   margin: 0 auto;
+}
+
+button[type=submit] {
+  margin: 10px;
 }
 
 body .game {
@@ -145,18 +148,32 @@ h2 {
 
 #quiz-form {
   padding: 0px 15px;
+  height: 150px;
 }
 
 .form-item {
-  display: inline-block;
-  vertical-align: top;
-  width: 50%;
+  display: block;
+  width: 100%;
+  padding-bottom: 15px;
 }
 
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1024px) {
     
     .image-with-text {
         width: 100%;
+    }
+
+    #quiz-photo {
+      width: 40%;
+      margin: 5% auto;
+      } 
+
+    #result {
+      text-align: center;
+    }
+
+    .quiz-line {
+      text-align: center;
     }
 }
