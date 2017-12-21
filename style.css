@@ -30,7 +30,6 @@ body .main-info p {
 
 body #quiz-photo {
   padding: 5px;
-
 }
 
 body #result {
@@ -40,11 +39,11 @@ body #result {
 }
 
 body a {
-    color: #211f24;
-    font-weight: bold;
-    font-size: 16px;
-    border: 1px dotted slategray;
-    float: right;
+  color: #211f24;
+  font-weight: bold;
+  font-size: 16px;
+  border: 1px dotted slategray;
+  float: right;
 }
 
 body .footer {
@@ -54,7 +53,7 @@ body .footer {
 }
 
 body .footer a:hover {
-    color: #6d7079;
+  color: #6d7079;
 }
 
 body .quiz {
@@ -67,10 +66,10 @@ body .quiz h2, body span {
 }
 
 body .img-with-text {
-    text-align: justify;
-    width: 100%;
-    padding: 20px;
-    }
+  text-align: justify;
+  width: 100%;
+  padding: 20px;
+}
 
 body .img-with-text img {
   display: block;
@@ -108,13 +107,14 @@ button[type=submit] {
 body .game {
   width: 100%;
 }
+
 #bg-game {
   position: relative;
   background-image: url(images/web.jpg);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   /*width:1000px;*/
-  height:550px;
+  height: 550px;
   cursor: url(images/spider-cursor.png), auto;
   border: 15px solid #6d7079;
   vertical-align: center;
@@ -126,7 +126,7 @@ img#fly {
   left: 500px-37px;*/
 }
 
-#counter, #timer, #starter{
+#counter, #timer, #starter {
   display: inline-block;
   margin-bottom: 11px;
   background: #6d7079;
@@ -139,11 +139,11 @@ img#fly {
 }
 
 #starter {
-  cursor:pointer;
+  cursor: pointer;
 }
 
 h2 {
-  padding-bottom: 10px ;
+  padding-bottom: 10px;
 }
 
 #quiz-form {
@@ -157,23 +157,21 @@ h2 {
   padding-bottom: 15px;
 }
 
-
 @media only screen and (max-width: 1024px) {
-    
-    .image-with-text {
-        width: 100%;
-    }
+  .image-with-text {
+    width: 100%;
+  }
 
-    #quiz-photo {
-      width: 40%;
-      margin: 5% auto;
-      } 
+  #quiz-photo {
+    width: 40%;
+    margin: 5% auto;
+  }
 
-    #result {
-      text-align: center;
-    }
+  #result {
+    text-align: center;
+  }
 
-    .quiz-line {
-      text-align: center;
-    }
+  .quiz-line {
+    text-align: center;
+  }
 }
