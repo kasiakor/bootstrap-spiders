@@ -6,24 +6,24 @@ body {
 }
 
 body .container {
-    width: 80%;
+    width: 80%!important;
 }
 
 body .row {
-  margin-top: 50px;
-  margin-bottom: 40px;
+  margin-top: 50px!important;
+  margin-bottom: 40px!important;
 }
 
 body .row h1 {
-    font-size: 50px;
+    font-size: 50px!important;
 }
 
 body .row h2 {
-    font-size: 40px;
+    font-size: 40px!important;
 }
 
 body .row p {
-    font-size: 25px;
+    font-size: 25px!important;
 }
 
 
