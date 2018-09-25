@@ -31,7 +31,7 @@ body .row ul li {
 }
 
 body .row .top-msg {
-    color: #d21313;
+    color: #85a84b;
     font-size: 23px;
     font-weight: 600;
 }
@@ -47,7 +47,7 @@ body .img-with-text {
 
 body .img-with-text img {
   display: block;
-  margin: 0 auto;
+  margin: 30px auto;
 }
 
 body .main-info p {
@@ -178,7 +178,7 @@ h2 {
 }
 
 #quiz-form {
-  padding: px 15px;
+  padding: 20px 15px;
   height: 150px;
 }
 
