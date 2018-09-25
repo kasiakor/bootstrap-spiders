@@ -26,6 +26,9 @@ body .row p {
     font-size: 25px!important;
 }
 
+body .row ul li {
+    font-size: 25px!important;
+}
 
 body .row .top-msg {
     color: #d21313;
