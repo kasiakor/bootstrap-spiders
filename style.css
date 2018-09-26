@@ -138,6 +138,13 @@ body .game {
   width: 100%;
 }
 
+
+iframe {
+   display: block;
+   margin: 0 auto;
+}
+
+
 #bg-game {
   position: relative;
   background-image: url(images/web.jpg);
