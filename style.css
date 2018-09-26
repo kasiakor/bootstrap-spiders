@@ -10,8 +10,8 @@ body .container {
 }
 
 body .row {
-  margin-top: 50px!important;
-  margin-bottom: 40px!important;
+  margin-top: 80px!important;
+  margin-bottom: 80px!important;
 }
 
 body .row h1 {
@@ -113,22 +113,25 @@ body #quiz-photo {
 }
 
 #quiz-answer {
-  margin: 20px;
+  margin: 20px 90px;
 }
 
+
 .quiz-line {
-  text-align: justify;
-  width: 400px;
+  text-align: center;
 }
+
 
 .quiz-line span {
     font-size: 30px;
 }
 
+/*
 .quiz-line, span, select {
   display: inline;
   margin: 0 auto;
 }
+*/
 
 button[type=submit] {
   margin: 10px;
