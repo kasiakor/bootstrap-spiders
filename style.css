@@ -71,10 +71,6 @@ body .fun-part {
     text-align: center;
 }
 
-body #quiz-photo {
-  padding: 5px;
-}
-
 body #result {
     padding-top: 30px;
     font-weight: bold;
