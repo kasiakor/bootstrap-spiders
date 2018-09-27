@@ -104,7 +104,7 @@ body .footer a:hover {
 }
 
 body .quiz {
-    padding-top: 60px;
+    padding-top: 66px;
     background-color: #619912;
     width: 100%;
 }
@@ -129,9 +129,7 @@ body .main-info p {
 }
 
 body #quiz-photo {
-  display: block;
-  border: 10px solid #F8F9FE;
-  padding: 10px;
+    border: solid 2px white;
 }
 
 #quiz-answer {
@@ -140,7 +138,8 @@ body #quiz-photo {
 
 
 .quiz-line {
-  text-align: center;
+    padding-top: 30px;
+    text-align: center;
 }
 
 
