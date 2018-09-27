@@ -2,8 +2,6 @@ body {
     font-family: 'Lato', sans-serif !important;
     color: #24373D;
     background-color: #F8F9FE;
-    background-image: url("images/bg-image.jpg");
-    background-repeat: no-repeat;
     font-weight: 300;
 }
 
@@ -69,9 +67,9 @@ body #quiz-photo {
 }
 
 body #result {
-  color: #d21313!important;
-  font-weight: bold;
-  font-size: 30px;
+    padding-top: 30px;
+    font-weight: bold;
+    font-size: 30px;
 }
 
 body a {
@@ -88,13 +86,18 @@ body .footer {
   float: right;
 }
 
+body .footer a {
+    color: #619912;
+}
+
 body .footer a:hover {
   color: #6d7079;
 }
 
 body .quiz {
-  background-color: #619912;
-  width: 100%;
+    padding-top: 60px;
+    background-color: #619912;
+    width: 100%;
 }
 
 body .quiz h2, body span {
