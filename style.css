@@ -20,6 +20,7 @@ body .row h1 {
 
 body .row h2 {
     font-size: 40px!important;
+    margin: 80px 0;
     color: #619912;
     font-weight: bold;
 }
