@@ -240,3 +240,21 @@ h2 {
     margin-bottom: 20px;
     border-bottom: 1px solid  #619912;
 }
+
+.green-bullet {
+  position: relative;
+  margin-bottom: 30px;
+  list-style: none;
+  
+}
+
+.green-bullet::before {
+    content: "";
+    position: absolute;
+    background: #619912;
+    height: 12px;
+    width: 12px;
+    top: 13px;
+    border-radius: 6px;
+    left: -25px;
+}
