@@ -120,6 +120,11 @@ body .img-with-text img {
   margin: 0 auto;
 }
 
+body .jumping-pets{
+  margin: 20px;
+  display: inline-block;
+}
+
 body .main-info p {
   text-align: justify;
 }
