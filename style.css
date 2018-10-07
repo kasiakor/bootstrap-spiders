@@ -25,10 +25,14 @@ body .row h2 {
     font-weight: bold;
 }
 
-body .row h3 {
+body .row h3, h1 {
     font-size: 28px!important;
-    color: #1f1d22;
+    color: #86ab47;
     font-weight: 500;
+}
+
+body h3, h1 {
+text-shadow: 0 0 2px #fff, -1px -1px 0 hsl(85, 79%, 34%), -2px -2px 1px hsl(85, 79%, 34%), -2px -2px 2px hsl(43, 53%, 11%);
 }
 
 body .row p {
@@ -113,7 +117,9 @@ body .img-with-text {
   text-align: justify;
   width: 100%;
   padding: 20px;
+  
 }
+
 
 body .img-with-text img {
   display: block;
