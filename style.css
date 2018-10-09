@@ -25,13 +25,17 @@ body .row h2 {
     font-weight: bold;
 }
 
-body .row h3, h1 {
+body .row p.arach {
+    font-size: 40px!important;
+}
+
+body .row h3, h1, .arach {
     font-size: 28px!important;
     color: #86ab47;
     font-weight: 500;
 }
 
-body h3, h1 {
+body h3, h1, .arach {
 text-shadow: 0 0 2px #fff, -1px -1px 0 hsl(85, 79%, 34%), -2px -2px 1px hsl(85, 79%, 34%), -2px -2px 2px hsl(43, 53%, 11%);
 }
 
@@ -254,7 +258,7 @@ h2 {
 
 .green-bullet {
   position: relative;
-  margin-bottom: 30px;
+  margin-bottom: 80px;
   list-style: none;
   
 }
